@@ -1,0 +1,71 @@
+/* Home.css */
+.home-section {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .home-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .home-text {
+    max-width: 600px;
+  }
+  
+  .home-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .home-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #61dafb;
+    color: #282c34;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #21a1f1;
+  }
+  
+  .home-image .profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .home-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .home-image .profile-pic {
+      width: 250px;
+      height: 250px;
+      margin-top: 30px;
+    }
+  }
+  

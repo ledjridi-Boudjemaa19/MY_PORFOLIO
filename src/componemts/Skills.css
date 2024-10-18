@@ -1,0 +1,72 @@
+/* Skills.css */
+.skills-section {
+  padding: 100px 20px;
+  background-color: #1e1e1e;
+  color: #f7f7f7;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.skills-section p {
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: #aaa;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.skill-card {
+  background-color: #2b2b2b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+.skill-card h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #f7f7f7;
+}
+
+.skill-card p {
+  font-size: 16px;
+  color: #bbb;
+}
+
+.skill-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+/* Individual Skill Icon Colors */
+.skill-card:nth-child(1) .skill-icon {
+  color: #61dafb; /* React.js */
+}
+
+.skill-card:nth-child(2) .skill-icon {
+  color: #3c873a; /* Node.js */
+}
+
+.skill-card:nth-child(3) .skill-icon {
+  color: #264de4; /* CSS */
+}
+
+.skill-card:nth-child(4) .skill-icon {
+  color: #e44d26; /* HTML */
+}

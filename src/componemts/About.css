@@ -1,0 +1,79 @@
+/* About.css */
+.about-section {
+  padding: 100px 20px;
+  background-color: #222;
+  color: #f7f7f7;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-text h2 {
+  font-size: 42px;
+  color: #61dafb;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.about-text h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #61dafb;
+  margin-top: 10px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 400px;
+}
+
+.about-image .profile-pic {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image .profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .about-text h2::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

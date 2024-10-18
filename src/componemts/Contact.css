@@ -1,0 +1,53 @@
+/* Contact.css */
+.contact-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  /* Social Media Styling */
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .social-icon {
+    font-size: 36px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #61dafb;
+    transform: scale(1.1);
+  }
+  
+  /* Color Schemes for each platform */
+  .social-icon.facebook:hover {
+    color: #3b5998; /* Facebook blue */
+  }
+  
+  .social-icon.instagram:hover {
+    color: #e1306c; /* Instagram pink */
+  }
+  
+  .social-icon.github:hover {
+    color: #333; /* GitHub black */
+  }
+  
+  .social-icon.email:hover {
+    color: #ea4335; /* Gmail red */
+  }
+  
